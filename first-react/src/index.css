@@ -1,0 +1,43 @@
+*{  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:  sans-serif;
+  text-transform: capitalize;
+
+
+}
+.rectangle{
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 1px 4px 4px 1px rgba(85, 85,85 ,0.25);
+  background: #f3f3ff;
+ 
+}
+.font{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.mora{
+  border-bottom:1px solid #000 ;
+}
+
+.dates-count{
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 20px;
+}
+.person{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  object-fit: cover;
+}
+.color-body{
+  background: #000;
+}
